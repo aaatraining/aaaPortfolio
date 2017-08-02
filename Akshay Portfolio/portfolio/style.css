@@ -1,0 +1,110 @@
+body {
+width: 960px; 
+margin: 0 auto; 
+background-image:url('image/manu.jpg');
+background-size: 100%;
+}
+
+li:hover {
+
+}
+
+ul li a {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+a:hover {
+text-decoration: none;
+color: red;
+}
+
+#content {
+overflow: auto;
+height: 100%;
+}
+
+#nav, #feature, #footer {
+background-color: #efefef;
+padding: 10px;
+margin: 10px;
+background-image: url("image/777.jpg");
+background-repeat: repeat-y;
+}
+
+.column1, .column2, .column3 {
+background-color: transparent;
+width: 300px;
+float: left;
+margin: 10px;}
+
+li {
+display: inline;
+padding: 5px;
+}
+
+a {
+color: #000000;
+}
+
+#footer {
+text-align: center;
+}
+
+div.img{
+margin:10px;
+padding: 0px;
+border:1px solid #0000ff;
+height:auto;
+width:auto;
+float:left;
+text-align:center;
+}
+
+div.img img{
+display:inline;
+margin:10px;
+border:1px solid #ffffff;
+}
+
+div.img a:hover img{
+border:1px solid #0000ff;
+}
+
+#nav{
+background-image:url("image/3.jpg");
+}
+
+.rollover a {     display : block;
+                     width : 300px;
+                     height : 234px;
+                     background-image:url("image/ro1.png" ); }
+
+.rollover a:hover { display : block;
+                      width : 300px;
+                      height : 234px;
+                      background-image:url("image/ro222.png" ); }
+
+.rollover2 a {     display : block;
+                     width : 300px;
+                     height : 234px;
+                     background-image:url("image/ro3.png" ); }
+
+.rollover2 a:hover { display : block;
+                      width : 300px;
+                      height : 234px;
+                      background-image:url("image/ro444.png" ); }
+
+.rollover3 a {     display : block;
+                     width : 300px;
+                     height : 234px;
+                     background-image:url("image/ro5.png" ); }
+
+.rollover3 a:hover { display : block;
+                      width : 300px;
+                      height : 234px;
+                      background-image:url("image/ro666.png" ); }
+
+#Banner{
+width : 100%;
+}
